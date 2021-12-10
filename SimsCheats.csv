@@ -1,0 +1,115 @@
+Code,Options,Comment
+#export,,write out behavior tuning constants to Tuning.txt
+#import,,read in behavior tuning constants from Tuning.txt
+aa,[on|off],enables/disables sprite antialiasing
+all_menus,[on|off],turns on/off the showing of unavailable interactions in pers
+allow_inuse,,sets whether menu items appear for in use objects
+alt_add,[amt],add constant value to entire altitude layer
+assert,,force an assert (for testing)
+auto_level,[on|off],architecture tools automatically set the level when necessary
+auto_reset,[on|off],turns on or off the automatic object reset feature (resetting of object simulations when main or init tree changes)
+autonomy,[level],set the autonomy level for all people in the house
+browser_failsafe,[on|off],can prevent a crash when launching the web browser
+bubble_tweak,[z offset],sets the z value used to offset the sims' thought bubbles
+cam_mode,[on|off],turns camera mode on or off
+cht,[file],executes file.cht as a list of cheats
+core_dump,,Dumps entire contents of memory to core_dump_[date:time].txt.  Warning: HUGE FILE
+crash,,crashes game :)
+ct,[tag] [index],dresses the sim in the tag and index from the costume trunk tag and index from the costume trunk
+damagelist,([refresh | current | previous | all]) | [on|off]),
+debug_social,[on|off],turns on the debug flag to show outcome choice dialogs for social interactions
+draw_all_frames,[on|off],"draw all animation frames, without skipping to keep up"
+draw_floorable,[on|off],turn the floorable grid on and off
+draw_origins,[on|off],draw colored dots at each person's origin
+draw_routes,[on|off],draw colored dots on selected person's path
+dump_catalog_sorts,-,
+dump_happy,,dumps to a file the selected person's most recent list  of scored interactions
+dump_mc,,dumps to a file the selected person's motive contribution curve
+edit_char,,"open Create-A-Character screen, and edit the select person"
+edit_grass,[increment],turn on mode for editing grass tiles. increment sets number value by which to change the grass'
+edit_size,[size],"sets flag layer to allow editing only with a central square, size x size"
+fam_test,[opcount],runs series of random operations on unhouses families
+flush,,Flushes app completely in to VM file. NT only. Useful to see how much memory is required at a given time to run the game (by tracking the app's WorkingSetSize)
+genable,[default|status] | ([terrain | floors | walls | clear | objects | people | full_draw | static_rows | static | old_clear | all ] [on|off]),
+grid,[on|off],enables/disables terrain grid drawing
+grow_grass,[amount],increase the grass level up to the maximum for each tile
+help,," help, or help [partial command], or help [command]"
+hist_add,,adds a new family history stat to the current family
+history,[file],"writes out the family history of the current family. if file is not specified, the default is used"
+house,[house #],"loads a house, no questions asked"
+houseview_update,[sims|vacation|x],
+html,[on|off],enables or disables automatic creation of web pages
+import,[FAM file],Import and load the given FAM file. Does so without asking.
+interests,,dialog showing selected char's interests
+lamps,[on|off],enables/disables lamp effects on walls & floors
+load,[house num],"[house num], between 0 and 18"
+log_animations,[on|off],log animations in the event log window
+log_mask,[on|off],sets the event logging mask
+lot,[lot #],
+lot_border,[tl] [tr] [bl] [br],sets up the borders of the lot with non-editable flag. requires rotation 0
+lot_size,[size],change the lot size
+make_dynamic,[on|off],
+map_edit,[on|off],turn on or off the mode to edit locked tiles
+memview,,shows the memory view window (debug builds only)
+money,[amt],sets current funds to amt
+motives,[on|off],turn on/off the motive engine for all people in the house
+move_lots,,Enter lot moving mode. Hit escape to exit it.
+move_objects,[on|off],turn on or off allowing the user to move any object
+music,[on|off],turns music on or off
+nessie,,Same as SimCity.
+ngh,[path],sets the neighborhood directory to the path
+obj_comp,[on|off],turns object compression in save file on or off
+obj_dlg,,
+offset_world,[x_amt] [y_amt],moves everything in world by specified x & y tile offsets
+people_quality,[low|medium|high],
+pet_control,,
+plugh,,"say ""plugh"""
+porntipsguzzardo,,"type ""porntipsguzzardo"""
+prepare_lot,,checks for required objects on the current lot and deletes come and see me objects
+preview_anims,[on|off],turns on/off animation preview mode
+quats,[on|off],enables or disables quaternion transformations.
+quit,,Quit the sims.
+rebuild_cp,,rebuilds entire control panel/ucp from scratch
+refresh_faces,,refresh the BMP_ resources for all people whose IFF files are writable
+refresh_textures,,rematches dependent textures and regenerates bitmaps for all
+reload_neighborhood,-,
+reload_people,,"total reload of people skeletons, animations, suits and skins"
+report_assets,[on|off],enables or disables assets report.
+restore_tut,,restores tutorial
+rosebud,,
+rotation,[0|1|2|3],set absolute world rotation
+route_balloons,[on|off],turn on or off the display of routing debug balloons
+save,,Saves the currently loaded house.
+save_careers,,save out careers data as binary
+save_careers_txt,,save out careers data as text
+save_tuning,,save out data from tuning.txt to object files
+set_hour,[hour],sets the hour of the day
+set_level,[1|2],
+sev,,"short for ""soundevent"""
+shadows,[on|off],enables/disables shadows under objects
+show_animations,,
+show_filter,,0 - 7. 0 to hide filters 1-Lodging; 2-Food; 3-Gardening; 4-Shopping; 5-Dog/Cat; 6-Small Animals; 7-Recreation
+show_sounds,,
+show_zones,[on|off],hide/disable the lot zoning outlines.
+shrink_text,[font_size] [text],"Products shrunk_text_#.bmp files, shrinking the text using the bmp shrinker"
+sim_log,[begin|end],start and stop the sim logging
+sim_peek,[on|off],enables or disables calls to PeekMessage within sim loop
+sim_speed,[speed],sets the sim speed to given number. 0-1000.
+sound,[on|off],turns sounds on or off
+sound_bad,,trigger sound event
+sound_good,,"short for ""soundevent"""
+sound_log,[on|off],shows or hides the sound log window
+soundevent,,trigger sound event
+sprites,[sims|vacation|alpha|depth|index],
+stream_fps,[max frames-per-sec of stream anim],
+swap_houses,[house#] [house#],swaps the 2 house files and updates families
+sweep,[on|off|all|none|'subsys_name'] [show|hide],
+tile_info,[on|off],show or hide the tile info window
+tips,-,
+tutorial,[on|off],tutorial off keeps the tutorial object from being generated when a tutorial house is loaded
+visitor_control,[on|off],enable or disable allowing visitors to be controlled using the keyboard
+w,[text],sets caption to appear at lower-left of webcam image
+water_tool,,enables the water tool
+write_destlist,[on|off],appends the route destination list to AllRoutes.txt every time a route is found
+write_routes,[on|off],write out an RTE file every time a route is found
+xyzzy,,"say ""xyzzy"""
