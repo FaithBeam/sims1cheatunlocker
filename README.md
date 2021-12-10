@@ -2,7 +2,7 @@
 
 This is a cli program unlocks all cheats in The Sims 1. It was tested against the base Sims 1 and the Complete
 Collection, so it probably works for the other expansions as long as you are using a NoCD/crack that has been
-deciphered.
+decompressed.
 
 I was inspired to make this after finding a Russian application that does the same thing on ModTheSims and wanted to
 recreate it.
