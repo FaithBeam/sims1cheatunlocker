@@ -1,2 +1,8 @@
 github.com/FaithBeam/patternfinder-go v0.0.0-20211208114332-de7454432f50 h1:p0wDvtG6cpjUPnhbii4gB1DVRb/65abngvz9BxR6wcc=
 github.com/FaithBeam/patternfinder-go v0.0.0-20211208114332-de7454432f50/go.mod h1:wmm7rMAtbixw3NXTX4huG+w+kRpOtyKbxn/YXfUMXgk=
+github.com/gonutz/check v1.2.0 h1:PVjoa4xwUU0XAH4/6mdg4kJ9BCCTIiwmBxImLJxCkp8=
+github.com/gonutz/check v1.2.0/go.mod h1:J5ndBcNQd4fv3I+Moevk4PXZoyXRamwwclm6dDgAuyA=
+github.com/gonutz/w32/v2 v2.2.2 h1:y6Y337TpuCXjYdFTq5p5NmcujEdAQiTB43kisovMk+0=
+github.com/gonutz/w32/v2 v2.2.2/go.mod h1:MgtHx0AScDVNKyB+kjyPder4xIi3XAcHS6LDDU2DmdE=
+github.com/gonutz/wui/v2 v2.8.0 h1:AGR/nze+Ihh/yX2quIK/CKV/M5VBLKwqYD7jE3pDZrk=
+github.com/gonutz/wui/v2 v2.8.0/go.mod h1:4twV9Ka+OwAr7Fy12YSJuAy5e4u8uTHk4YbxFyguheo=
