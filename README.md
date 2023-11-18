@@ -1,3 +1,5 @@
+**This feature has been merged into my [Widescreen Patcher](https://github.com/FaithBeam/Sims-1-Complete-Collection-Widescreen-Patcher) which is easier to use than this program. Check the Optional tab.**
+
 # Sims 1 Cheat Unlocker
 
 This program unlocks all cheats in The Sims 1. It was tested against the base Sims 1 and the Complete
